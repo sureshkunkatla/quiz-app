@@ -54,6 +54,7 @@ const QuizScreen = () => {
     }, 1000);
 
     return () => clearInterval(timer);
+    // eslint-disable-next-line 
   }, [currentQuestionIndex, timeLeft]);
 
   useEffect(() => {
